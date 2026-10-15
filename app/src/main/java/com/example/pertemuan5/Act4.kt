@@ -36,10 +36,17 @@ fun FormDataDiri(modifier: Modifier){
     var textJK by remember {mutableStateOf(value="")}
     val gender:List<String> = listOf("Laki-laki","Perempuan")
 
-    //variabel-variabel untuk menyimpan data yang diperoleh dari komponen
+    //variabel-variabel untuk menyimoan data yang diperoleh dari komponen
     var nama by remember {mutableStateOf(value="")}
     var alamat by remember {mutableStateOf(value="")}
     var jenis by remember {mutableStateOf(value="")}
 
+    Column(
+        modifier = modifier.padding(top = 50.dp),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        
 
+    }
 }
